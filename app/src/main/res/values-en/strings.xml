@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">conversions</string>
+    <string name="c_f">celcius to farenheit</string>
+    <string name="f_c">farrenheit to celcius</string>
+    <string name="c_k">celcius to kelvin</string>
+    <string name="k_c">kelvin to celcius</string>
+    <string name="m_cm">meters to centimeters</string>
+    <string name="cm_m">centimeters to meters</string>
+    <string name="cm_inch">centimeters to inches</string>
+    <string name="inch_cm">inches to centimeters</string>
+
+
+    <string name="calcular">calculate</string>
+    <string name="resultado">result</string>
+    <string name="atras">back</string>
+    <string name="temperatura">temperature</string>
+    <string name="distancia">distance measures</string>
+
+
+</resources>

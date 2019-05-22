@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">conversiones</string>
+    <string name="c_f">celcius a farenheit</string>
+    <string name="f_c">farrenheit a celcius</string>
+    <string name="c_k">celcius a kelvin</string>
+    <string name="k_c">kelvin a celcius</string>
+    <string name="m_cm">metros a centimetros</string>
+    <string name="cm_m">centimetros a metros</string>
+    <string name="cm_inch">centimetros a pulgadas</string>
+    <string name="inch_cm">pulgadas a centimetros</string>
+
+
+    <string name="calcular">calcular</string>
+    <string name="resultado">resultado</string>
+    <string name="atras">atras</string>
+    <string name="temperatura">temperatura</string>
+    <string name="distancia">distancia</string>
+
+    <string name="princ">conversiones</string>
+
+
+</resources>

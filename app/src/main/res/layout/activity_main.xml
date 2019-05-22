@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="347dp"
+        android:layout_height="365dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="136dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="143dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.61"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.82">
+
+        <LinearLayout
+            android:layout_width="169dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/temperatura" />
+
+            <Button
+                android:id="@+id/cel_far"
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:text="@string/c_f" />
+
+            <Button
+                android:id="@+id/far_cel"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="@string/f_c" />
+
+            <Button
+                android:id="@+id/cel_kel"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="@string/c_k" />
+
+            <Button
+                android:id="@+id/kel_cel"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="@string/k_c" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="189dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/distancia" />
+
+            <Button
+                android:id="@+id/m_cm"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="@string/m_cm" />
+
+            <Button
+                android:id="@+id/cm_m"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="@string/cm_m" />
+
+            <Button
+                android:id="@+id/cm_inch"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="@string/cm_inch" />
+
+            <Button
+                android:id="@+id/inch_cm"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="@string/inch_cm" />
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
